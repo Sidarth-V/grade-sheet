@@ -1,0 +1,72 @@
+:root {
+  --blue: #0784b5;
+  --white: #ffffff;
+  --black: #171717;
+  --darkGray: #444444;
+  --offWhite: #ededed;
+  --lightMode: rgb(234, 234, 234);
+}
+
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 2;
+  color: var(--offWhite);
+}
+
+body {
+  background-color: var(--darkGray);
+}
+
+.content {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 0%;
+  background-color: var(--black);
+  padding: 1%;
+  height: 100%;
+}
+
+.content h2 {
+  padding-top: 2vh;
+}
+
+.navbar {
+  background-color: var(--blue);
+  margin: 0%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.gradeTable {
+  width: 100%;
+  margin-top: 5vh;
+  border-collapse: collapse;
+}
+
+.tableHeader {
+  background-color: var(--blue);
+  color: white;
+}
+
+.tableHeader:hover {
+  background-color: var(--blue);
+  color: white;
+}
+
+.gradeTable th,
+td {
+  border: 1px solid lightgray;
+}
+
+tr:hover {
+  background-color: var(--darkGray);
+}
+
+.cgpa {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
